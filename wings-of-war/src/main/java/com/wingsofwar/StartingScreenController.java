@@ -6,7 +6,12 @@ import javafx.fxml.FXML;
 public class StartingScreenController {
 
     @FXML
-    private void switchToPrimary() throws IOException {
-        App.setRoot("primary");
+    private void switchToOnePlayer() throws IOException {
+        App.setRoot("onePlayer");
     }
+
+    //@FXML
+    //private void switchToTwoPlayer() throws IOException {
+        //App.setRoot("twoplayer");
+    //}
 }
